@@ -24,5 +24,3 @@ var containsDuplicate = function(nums) {
 var containsDuplicate = function(nums) {
   return new Set(nums).size !== nums.length;
 };
-
-
